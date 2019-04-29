@@ -21,9 +21,9 @@ app.listen(3000, function () {
 app.get('', function (req, res) {
    res.header('Access-Control-Allow-Origin', "*");
 	res.send(JSON.stringify({ 
-		"title": "AmazonAtlas 11 October, 2018  Today,",
-		"date" : "11 October, 2018",
-		"message" : "AmazonAtlas"+
+		title: "AmazonAtlas 11 October, 2018  Today,",
+		date : "11 October, 2018",
+		message : "AmazonAtlas"+
 		"Today, 11 October 2018, WikiLeaks publishes a Highly Confidential internal document from the cloud computing provider Amazon. The document from late 2015 lists the addresses and some operational details of over one hundred data centers spread across fifteen cities in nine countries. To accompany this document, WikiLeaks also created a map showing where Amazon’s data centers are located."+
 		
 		"Amazon, which is the largest cloud provider, is notoriously secretive about the precise locations of its data centers. While a few are publicly tied to Amazon, this is the exception rather than the norm. More often, Amazon operates out of data centers owned by other companies with little indication that Amazon itself is based there too or runs its own data centers under less-identifiable subsidiaries such as VaData, Inc. In some cases, Amazon uses pseudonyms to obscure its presence. For example, at its IAD77 data center, the document states that “Amazon is known as ‘Vandalay Industries’ on badges and all correspondence with building manager."+
